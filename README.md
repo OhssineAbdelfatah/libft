@@ -1,4 +1,4 @@
-# ft_printf
+<!-- # ft_printf
 
 ## Description
 
@@ -41,6 +41,5 @@ int ft_printf(const char *, ...);
 
 ## Author
 
-Kheireddine-Anas
-
-kheireddine.anas@gmail.com
+Ohssine-ABDELFATAH
+abdelfatah.ohssine@gmail.com -->
