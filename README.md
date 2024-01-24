@@ -12,7 +12,7 @@ Libft is a custom C library that provides a collection of useful functions to su
 
 ## Introduction
 
-This library was created as part of the 42 Silicon Valley curriculum and is designed to be used in various C projects. The goal is to provide commonly used functions that are not part of the standard C library.
+This library was created as part of the 1337 curriculum and is designed to be used in various C projects. The goal is to provide commonly used functions that are not part of the standard C library.
 
 ## Features
 
@@ -30,7 +30,7 @@ To use the `libft` library in your project, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/libft.git
+git clone https://github.com/OhssineAbdelfatah/libft.git
 ```
 
 2. Include the libft.h header file in your C source files:
@@ -70,7 +70,7 @@ To remove the libft.a library and all build files, run:
 ```bash
 make fclean
 ```
-
+<!-- 
 ## Contributing
 
 Contributions are welcome! If you would like to contribute to the library, please follow the guidelines in the CONTRIBUTING.md file.
@@ -81,4 +81,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ```vbnet
 Remember to replace placeholders like `your-username` and customize the information according to your project.
-```
+``` -->
+## Author
+
+OhssineAbdelfatah
+
+abdelfatah.ohssine@gmail.com
