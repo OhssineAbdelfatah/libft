@@ -10,7 +10,7 @@ Libft is a custom C library that provides a collection of useful functions to su
 
 ## Introduction
 
-This library was created as part of the 1337 curriculum and is designed to be used in various C projects. The goal is to provide commonly used functions that are not part of the standard C library.
+This library was created as part of the 1337 coding school curriculum and is designed to be used in various C projects. The goal is to provide commonly used functions that are not part of the standard C library.
 
 ## Features
 
