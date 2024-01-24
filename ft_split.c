@@ -76,11 +76,9 @@ char	**ft_split(char const *s, char c)
 {
 	char	**array;
 	size_t	words;
-	int		i;
 
 	if (!s)
 		return (NULL);
-	i = 0;
 	words = count_word(s, c);
 	array = (char **)malloc((words + 1) * sizeof(char *));
 	if (!array)
