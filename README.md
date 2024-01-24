@@ -1,45 +1,84 @@
-<!-- # ft_printf
+# Libft
 
-## Description
+Libft is a custom C library that provides a collection of useful functions to supplement the standard C library.
 
-`libftprintf.a` is a library that contains a function `ft_printf()`, which mimics the behavior of the original `printf()` function from the C standard library. The purpose of this project is to recode the `printf()` function without implementing the buffer management of the original.
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Usage](#usage)
+- [Building](#building)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Prototype
-```c
-int ft_printf(const char *, ...);
+## Introduction
+
+This library was created as part of the 42 Silicon Valley curriculum and is designed to be used in various C projects. The goal is to provide commonly used functions that are not part of the standard C library.
+
+## Features
+
+- String manipulation functions
+- Memory manipulation functions
+- Linked list functions
+- Input/Output functions
+- Mathematical functions
+- and more...
+
+## Usage
+
+To use the `libft` library in your project, follow these steps:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/libft.git
 ```
 
-## Conversions Handled
+2. Include the libft.h header file in your C source files:
 
-- `%c`: Prints a single character.
-- `%s`: Prints a string (as defined by the common C convention).
-- `%p`: The `void *` pointer argument has to be printed in hexadecimal format.
-- `%d`: Prints a decimal (base 10) number.
-- `%i`: Prints an integer in base 10.
-- `%u`: Prints an unsigned decimal (base 10) number.
-- `%x`: Prints a number in hexadecimal (base 16) lowercase format.
-- `%X`: Prints a number in hexadecimal (base 16) uppercase format.
-- `%%`: Prints a percent sign.
+```c
+#include "libft.h"
+```
 
-## Requirements
+3. Compile your project with the libft.a library:
 
-- External Functions: `write`, `va_start`, `va_arg`, `va_copy`, `va_end`, (`malloc` && `free`) I didn't use it in my code.
-- Libft Authorized: Yes (I don't inlude it in the code).
+```bash
+gcc -o your_program your_source.c -L./libft -lft
+```
 
+4. Run your program:
 
-## Notes
+```bash
+./your_program
+```
+## Building
 
-- The library (`libftprintf.a`) will be created at the root of the repository.
-- Buffer management of the original `printf()` is not implemented.
-- The function will be compared against the original `printf()`.
-- The library is created using the `ar` command. The use of `libtool` is forbidden.
+To build the libft library, run:
 
-## Turn in files
+```bash
+make
+```
+This will generate the libft.a static library.
 
-- The program name (`libftprintf.a`).
-- Files : (`ft_printf.c` && `Makefile` && `file.c`).
+To clean up the build files, run:
 
-## Author
+```bash
+make clean
+```
 
-Ohssine-ABDELFATAH
-abdelfatah.ohssine@gmail.com -->
+To remove the libft.a library and all build files, run:
+
+```bash
+make fclean
+```
+
+## Contributing
+
+Contributions are welcome! If you would like to contribute to the library, please follow the guidelines in the CONTRIBUTING.md file.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+```vbnet
+Remember to replace placeholders like `your-username` and customize the information according to your project.
+```
