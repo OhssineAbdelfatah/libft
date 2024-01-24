@@ -7,8 +7,6 @@ Libft is a custom C library that provides a collection of useful functions to su
 - [Features](#features)
 - [Usage](#usage)
 - [Building](#building)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
